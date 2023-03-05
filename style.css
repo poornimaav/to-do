@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(177, 208, 24); */
+
+    background: linear-gradient(to right, #4CAF50,#cee744,#6571e1);
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #f3b121de;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding:0 1rem;
+    padding-bottom: 20px;
+    background-color: #a6f321de;
+    box-shadow: 5px solid #cee744;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+ol {
+    /* list-style: none; */
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  li.done {
+    background-color: #e0e0e0;
+    text-decoration: line-through;
+  }
+  
+  li.editing {
+    background-color: #fff;
+  }
+  
+  li > span {
+    flex: 1;
+  }
+  
+  li > button {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li > button:nth-of-type(1) {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  li > button:nth-of-type(2) {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  li > button:nth-of-type(3) {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+  }
+  
